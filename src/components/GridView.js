@@ -44,9 +44,18 @@ const GridView = ({ students }) => {
                   <span> {course}</span>
                 ))}
               </div>
-              <div className="text-gray-600">
+              <div className="text-gray-600 mb-3">
                 <strong>GAP:</strong> {student.gpa}
               </div>
+              <button className="mr-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">
+                Edit
+              </button>
+              <button className="mr-2 bg-orange-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                Flag
+              </button>
+              <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                Delete
+              </button>
             </div>
           </Popup>
         </div>
