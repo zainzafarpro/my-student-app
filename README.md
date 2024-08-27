@@ -1,6 +1,7 @@
 # Getting Started with Student APP
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Link**: https://zainzafarpro.github.io/my-student-app/
 
 ## Available Scripts
 
